@@ -14,12 +14,33 @@ elastic_search: true
 sections:
 - repository:
     name: pivotal-cf/docs-addon-ipsec
+    ref: '1.7'
+  directory: addon-ipsec/1-7
+  subnav_template: addon_ipsec.erb
+  product_info:
+    use_local_header: true
+    latest_stable_version: 1.7
+    local_header_img: /images/cloud_rings.png
+    local_header_title: PCF IPsec Add-On
+    search_placeholder: Search IPsec Add-On 1.7
+    url_prefix: addon-ipsec/1-7
+    local_product_version: 1.7
+    local_header_links: []
+    local_header_version_list:
+      - url_prefix: http://docs.pivotal.io/addon-ipsec/1-5
+        display_name: v1.5
+      - url_prefix: http://docs.pivotal.io/addon-ipsec/1-6
+        display_name: v1.6
+      - url_prefix: http://docs.pivotal.io/addon-ipsec/1-7
+        display_name: v1.7
+- repository:
+    name: pivotal-cf/docs-addon-ipsec
     ref: '1.6'
   directory: addon-ipsec/1-6
   subnav_template: addon_ipsec.erb
   product_info:
     use_local_header: true
-    latest_stable_version: 1.6
+    latest_stable_version: 1.7
     local_header_img: /images/cloud_rings.png
     local_header_title: PCF IPsec Add-On
     search_placeholder: Search IPsec Add-On 1.6
@@ -29,6 +50,10 @@ sections:
     local_header_version_list:
       - url_prefix: http://docs.pivotal.io/addon-ipsec/1-5
         display_name: v1.5
+      - url_prefix: http://docs.pivotal.io/addon-ipsec/1-6
+        display_name: v1.6
+      - url_prefix: http://docs.pivotal.io/addon-ipsec/1-7
+        display_name: v1.7
 - repository:
     name: pivotal-cf/docs-addon-ipsec
     ref: '1.5'
@@ -36,7 +61,7 @@ sections:
   subnav_template: addon_ipsec_1-5.erb
   product_info:
     use_local_header: true
-    latest_stable_version: 1.6
+    latest_stable_version: 1.7
     local_header_img: /images/cloud_rings.png
     local_header_title: PCF IPsec Add-On
     search_placeholder: Search IPsec Add-On 1.5
@@ -44,5 +69,9 @@ sections:
     local_product_version: 1.5
     local_header_links: []
     local_header_version_list:
+      - url_prefix: http://docs.pivotal.io/addon-ipsec/1-5
+        display_name: v1.5
       - url_prefix: http://docs.pivotal.io/addon-ipsec/1-6
         display_name: v1.6
+      - url_prefix: http://docs.pivotal.io/addon-ipsec/1-7
+        display_name: v1.7
