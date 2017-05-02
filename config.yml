@@ -37,7 +37,7 @@ sections:
     name: pivotal-cf/docs-addon-ipsec
     ref: '1.6'
   directory: addon-ipsec/1-6
-  subnav_template: addon_ipsec.erb
+  subnav_template: addon_ipsec_1-6.erb
   product_info:
     use_local_header: true
     latest_stable_version: 1.7
