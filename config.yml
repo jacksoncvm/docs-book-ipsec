@@ -28,7 +28,7 @@ sections:
     local_header_links: []
     local_header_version_list:
       - url_prefix: http://docs.pivotal.io/addon-ipsec/1-10
-        display_name: v1.10
+        display_name: 'v1.10'
       - url_prefix: http://docs.pivotal.io/addon-ipsec/1-9
         display_name: v1.9
       - url_prefix: http://docs.pivotal.io/addon-ipsec/1-8
