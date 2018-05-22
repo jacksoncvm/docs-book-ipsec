@@ -15,20 +15,20 @@ sections:
 - repository:
     name: pivotal-cf/docs-addon-ipsec
     ref: 'master'
-  directory: addon-ipsec/2-0
-  subnav_template: addon_ipsec_2-0.erb
+  directory: addon-ipsec/1-10
+  subnav_template: addon_ipsec_1-10.erb
   product_info:
     use_local_header: true
     latest_stable_version: 1.9
     local_header_img: /images/cloud_rings.png
     local_header_title: IPsec Add-on for PCF
-    search_placeholder: Search IPsec Add-on 2.0
-    url_prefix: addon-ipsec/2-0
-    local_product_version: 2.0
+    search_placeholder: Search IPsec Add-on 1.10
+    url_prefix: addon-ipsec/1-10
+    local_product_version: 1.10
     local_header_links: []
     local_header_version_list:
-      - url_prefix: http://docs.pivotal.io/addon-ipsec/2-0
-        display_name: v2.0
+      - url_prefix: http://docs.pivotal.io/addon-ipsec/1-10
+        display_name: v1.10
       - url_prefix: http://docs.pivotal.io/addon-ipsec/1-9
         display_name: v1.9
       - url_prefix: http://docs.pivotal.io/addon-ipsec/1-8
